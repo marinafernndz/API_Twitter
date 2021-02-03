@@ -9,12 +9,12 @@ import tweepy
 import time
 import networkx as nx
 import matplotlib.pyplot as plt
-consumer_key = '52X5IphnszzyK7CpGF7McAbqO'
-consumer_secret = 'VZxCNjfapwwiXoT1hwjhSenPVIR4Xkj9rVVEeXJxD0jvulLyCk'
-access_token = '587289191-MZirTwqAR71ANaJi8MqcREDsB8syoQOllG8dMkOw'
-access_token_secret = 'aWVKoF24TyWGQwaaahjWxRAN1xVCTuyrNTPrfxvU2vwhG'
-auth = tweepy.OAuthHandler('52X5IphnszzyK7CpGF7McAbqO', 'VZxCNjfapwwiXoT1hwjhSenPVIR4Xkj9rVVEeXJxD0jvulLyCk')
-auth.set_access_token('587289191-MZirTwqAR71ANaJi8MqcREDsB8syoQOllG8dMkOw', 'aWVKoF24TyWGQwaaahjWxRAN1xVCTuyrNTPrfxvU2vwhG')
+consumer_key = 
+consumer_secret = 
+access_token = 
+access_token_secret = 
+auth = tweepy.OAuthHandler('consumer_key', 'consumer_secret')
+auth.set_access_token('access_token', 'access_token_secret')
 
 # Preparamos el módulo api de Tweepy (que es el que nos va a ayudar a hacer las "preguntas" a la API)
 api = tweepy.API(auth)
